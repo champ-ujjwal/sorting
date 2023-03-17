@@ -1,0 +1,127 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    padding: 20px;
+}
+.nav-iem1{
+    position:relative; left:-420px;
+    font-size: 20px;
+    
+}
+.nav-iem2{
+    position:relative; left:-360px;
+    font-size: 20px;
+}
+.nav-iem3{
+    position:relative; left:-300px;
+    font-size: 20px;
+    
+}
+.nav-iem4{
+    position:relative; left:-240px;
+    font-size: 20px;
+ 
+}
+.nav-iem5{
+    position:relative; left:-180px;
+    font-size: 20px;
+    
+}
+.nav-iem6{
+    position:relative; left:-120px;
+    font-size: 20px;
+    
+    
+}
+.nav-iem7{
+    position:relative; left:-60px;
+    font-size: 20px;
+}
+
+
+/*Contact us page*/
+.contact .section-header{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.contact .section-header:after {
+	content: '';
+	display: block;
+	width: 7%;
+	height: 2px;
+	background-color: rgba(85, 12, 12, 0.887);
+    margin: auto;
+    position: relative;
+   
+  
+}
+
+.contact .map{
+    width: 100%;
+    padding: 30px;
+}
+.contact .info-container {
+    background-color:rgba(13, 95, 195, 0.994);
+    /* height: 100%; */
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact .info-item {
+    width: 100%;
+    background-color:rgba(16, 190, 196, 0.994);;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(18, 2, 2);
+  }
+
+  .form{
+    margin-left: 15%;
+    margin-bottom: 50%;
+    margin-right: 8%;
+
+  }
+  #abi{
+    margin-left: 29%;
+  }
+
+  .contact .info-item i {
+    font-size: 20px;
+    color: rgb(19, 1, 1);
+   
+    width: 50px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;     /*jo icon hai wo aek circle k andar aa jata*/
+    margin-right: 15px; 
+  }
+  
+  .contact .info-item h4 {
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .contact .info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  
+  .contact .info-item:hover i {
+    background: #fff;
+    color: var(--color-primary);
+  } 
+
+
+   .contact form{
+    float: left;
+   }
+   
